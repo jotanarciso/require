@@ -1,7 +1,7 @@
 (function(undefined) {
   "use strict";
   requirejs.config({
-    name: "garagem",
+    name: "jotanarciso",
     baseUrl: "./",
     urlArgs: function(id, url) {
       return (url.indexOf("?") === -1 ? "?" : "&") + "v=23";
