@@ -6,7 +6,7 @@
     urlArgs: function(id, url) {
       return (url.indexOf("?") === -1 ? "?" : "&") + "v=23";
     }, // Debug Cache,
-    deps: ["js/config/base"],
+    deps: ["https://rawcdn.githack.com/jotanarciso/require/802061c9065aeadc4bb98b77a24ef605a490a258/base.js"],
     map: {
       "*": {
         jQuery: "jquery"
